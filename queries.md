@@ -1,5 +1,3 @@
-[TOC]
-
 # The benchmark queries used for PAIRPQ
 
 The prefixes used:
