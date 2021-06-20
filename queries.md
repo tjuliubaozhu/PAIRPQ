@@ -100,16 +100,8 @@ The 8 benchmark queries for PAIRPQ on [DBpedia](https://www.dbpedia.org/):
       	?x dbo:birthPlace / dbo:isPartOf ?y
       }
       ```
-
-   2. Q2
-
-      ```SPARQL
-      SELECT * WHERE {
-          ?x dbo:starring / dbo:birthPlace / dbo:isPartOf ?y
-      }
-      ```
-
-   3. Q3
+      
+   3. Q2
 
       ```SPARQL
       SELECT * WHERE {
@@ -117,6 +109,16 @@ The 8 benchmark queries for PAIRPQ on [DBpedia](https://www.dbpedia.org/):
           ?x dbo:birthPlace / dbo:isPartOf ?y.
       }
       ```
+      
+   2. Q3
+
+      ```SPARQL
+      SELECT * WHERE {
+          ?x dbo:starring / dbo:birthPlace / dbo:isPartOf ?y
+      }
+      ```
+
+
 
    4. Q4
 
